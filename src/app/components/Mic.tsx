@@ -1,7 +1,7 @@
 'use client'
 import { MicIcon } from "./icons/MicIcon";
 import { useState, useEffect, useRef } from "react";
-import sendAudioFile from "../api/sendAudioFile";
+import sendAudioFile from "@/app/api/sendAudioFile";
 
 export const Mic = () => {
     const [canRecord, setCanRecord] = useState(true);
@@ -38,7 +38,7 @@ export const Mic = () => {
                     chunksRef.current = [];
                     const url = URL.createObjectURL(audioBlob);
                     setAudioUrl(url);
-                    sendAudioFile(audioBlob);
+                    console.log(sendAudioFile(audioBlob));
 
                 };
 
