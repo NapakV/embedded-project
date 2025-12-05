@@ -1,0 +1,138 @@
+[00:00:02.401] Server  LOG      ✓ Ready in 1706ms
+[00:00:24.090] Server  LOG      ○ Compiling / ...
+[00:00:27.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.378] Browser LOG     {}
+[00:00:41.378] Browser LOG     {}
+[00:01:47.299] Browser LOG     {}
+[00:01:47.299] Browser LOG     {}
+[00:04:13.959] Server  LOG      ✓ Compiled in 28ms
+[00:04:18.643] Server  LOG      ✓ Compiled in 22ms
+[00:04:19.407] Browser ERROR   ./embed/project/embeddedproj/src/app/api/sendAudioFile.js:4:7
+Parsing ecmascript source code failed
+  2 | // dotenv.config('.config');
+  3 | // const ESP_API=process.env.ESP_API
+> 4 | const ESP
+    |       ^^^
+  5 | // const { ESP_IP_ADDRESS } = process.env;
+  6 | export default async function sendAudioFile(audio, filename = `recording-${Date.now()}.webm`){
+  7 |     // console.log(audio)
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+[00:04:20.403] Browser ERROR   ./embed/project/embeddedproj/src/app/api/sendAudioFile.js:4:7
+Parsing ecmascript source code failed
+  2 | // dotenv.config('.config');
+  3 | // const ESP_API=process.env.ESP_API
+> 4 | const ESP_API
+    |       ^^^^^^^
+  5 | // const { ESP_IP_ADDRESS } = process.env;
+  6 | export default async function sendAudioFile(audio, filename = `recording-${Date.now()}.webm`){
+  7 |     // console.log(audio)
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+[00:04:21.684] Server  LOG      ✓ Compiled in 25ms
+[00:04:22.403] Browser ERROR   ./embed/project/embeddedproj/src/app/api/sendAudioFile.js:4:19
+Parsing ecmascript source code failed
+  2 | // dotenv.config('.config');
+  3 | // const ESP_API=process.env.ESP_API
+> 4 | const ESP_API=http://localhost:5001
+    |                   ^
+  5 | // const { ESP_IP_ADDRESS } = process.env;
+  6 | export default async function sendAudioFile(audio, filename = `recording-${Date.now()}.webm`){
+  7 |     // console.log(audio)
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+[00:04:25.398] Browser ERROR   ./embed/project/embeddedproj/src/app/api/sendAudioFile.js:4:32
+Parsing ecmascript source code failed
+  2 | // dotenv.config('.config');
+  3 | // const ESP_API=process.env.ESP_API
+> 4 | const ESP_API=/http://localhost:5001
+    |                                ^
+  5 | // const { ESP_IP_ADDRESS } = process.env;
+  6 | export default async function sendAudioFile(audio, filename = `recording-${Date.now()}.webm`){
+  7 |     // console.log(audio)
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+[00:04:27.585] Server  LOG      ✓ Compiled in 19ms
+[00:04:28.397] Browser ERROR   ./embed/project/embeddedproj/src/app/api/sendAudioFile.js:4:15
+Parsing ecmascript source code failed
+  2 | // dotenv.config('.config');
+  3 | // const ESP_API=process.env.ESP_API
+> 4 | const ESP_API='http://localhost:5001
+    |               ^^^^^^^^^^^^^^^^^^^^^^
+  5 | // const { ESP_IP_ADDRESS } = process.env;
+  6 | export default async function sendAudioFile(audio, filename = `recording-${Date.now()}.webm`){
+  7 |     // console.log(audio)
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component Browser]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./embed/project/embeddedproj/src/app/api/sendAudioFile.js [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Client Component SSR]
+    ./embed/project/embeddedproj/src/app/components/Mic.tsx [Server Component]
+    ./embed/project/embeddedproj/src/app/page.tsx [Server Component]
+[00:04:37.577] Browser LOG     {}
+[00:04:37.577] Browser LOG     {}
+[00:04:40.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:46.703] Browser LOG     {}
+[00:04:46.703] Browser LOG     {}
+[00:04:46.703] Browser LOG     555
+[00:04:46.703] Browser LOG     {"filename":"recording-1764061049029.webm","message":"Audio file uploaded and saved to SPIFFS successfully!","size":56324,"spiffsStats":{"fileCount":1,"totalBytes":1073741824,"usedBytes":56324}}
